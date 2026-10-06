@@ -1,0 +1,9 @@
+O algoritmo deve inicialmente solicitar ao usuário um valor n para calcular sua multiplicação por 9.
+
+Após a leitura do valor, será calculado o primeiro dígito do resultado, correspondente à dezena, utilizando a operação n - 1. Em seguida, será calculado o segundo dígito, correspondente à unidade, utilizando a operação 10 - n.
+
+Depois disso, o valor da dezena será multiplicado por 10 e somado ao valor da unidade. Portanto, o resultado será calculado pela expressão:
+
+resultado = (n - 1) * 10 + (10 - n)
+
+Por fim, o algoritmo deverá exibir o resultado da multiplicação de 9 por n.
